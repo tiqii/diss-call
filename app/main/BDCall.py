@@ -123,7 +123,7 @@ def add(phone):
 def call(phone, bid):
     """
     这里就是骚扰电话的逻辑了，借用百度离线宝
-    
+
     @param  phone           需要骚扰的电话，电话的格式必须正确，这里不做电话有效性验证了
     @param  bid             商户id（目前lxb商户ID范围在0-9200之间大部分有效）
     @return call_status     提交骚扰的状态码，0为骚扰成功，其他的值为可能成功
@@ -233,7 +233,7 @@ def call(phone, bid):
 def loads_jsonp(_jsonp):
     """ 
     解析jsonp
-    
+
     # 作者：阿阿聪
     # 链接：https://www.zhihu.com/question/52841349/answer/132564221
     # 来源：知乎
